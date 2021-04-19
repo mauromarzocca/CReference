@@ -1,0 +1,389 @@
+1   printf
+                         i/o
+ °±5ı  f        Š@       €Ó& Ck4ı  `           stdio.h
+              @      0            `       üb     \ D stampa a video
+     `       V o l u U T2 \ U s e r f  fm a r z o \ G o o g l e   D U Tv e \ E s a U T\ e x e   b U Ta   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n e   f u n c X               @       `                 }            !Úô7ı    }            X       `       `}     @ıb     int per ogni variabile che viene caricata
+     X}     «U5ı  constant char *format
+                                Ñ+@     à'@     X       P}            ÿÿÿÿÿÿÿÿX              é+@     2   scanf
+                          i/o
+ °±5ı  f        Š@        ¨İã Ck4ı  `           stdio.h
+              @      0            `       üb     \ D legge da tastiera (stdin)
+  V o l u U T2 \ U s e r f  fm a r z o \ G o o g l e   D U Tv e \ E s a U T\ e x e   b U Ta   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n e   f u n c X               @       `                             !Úô7ı                X       `       `     @ıb     int per ogni carattere scritto, altrimenti EOF in caso di error constant char *format
+                                Ñ+@     à'@     X       P            ÿÿÿÿÿÿÿÿX              é+@     3   Main
+                           int
+ ³j$û  _        Š@      î3Ê  “oe"û  X           stdio.h
+              @      0            p       üb     \ D ‚ la funzione che ‚ sempre presente in un programma C ed ‚ la prima funzione a cui viene passato il controllo. A sua volta pu¢ invocare altre funzioni
+ o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ˆ            !Ú÷%û    ˆ            ^       p       hˆ     @ıb     int
+    Ä´%û  `ˆ     ¸-@                  Xˆ     «%û  int argc, char *argv[]
+                               Ñ+@     à'@     ^       Pˆ            ÿÿÿÿÿÿÿÿ^              é+@     4   Switch
+                         int
+ ³j$û  e        Š@        €8ş/“oe"û  ^           stdio.h
+              @      0            p       üb     \ D ‚ un istruzione utile se dobbiamo valutare diverse alternative di tipo categorico (non numerico) 
+  U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  null
+          Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     5   if...else
+                      int
+ ³j$û  e        Š@        ˜L.û “oe"û  ^           stdio.h
+              @      0            p       üb     \ D struttura di selezione utilizzata per verificare una condizione, esegue una determinata cosa se ‚ vera (if), altrimenti pu¢ eseguirne una seconda, se presente (else)
+  e r i e ) \ c r e a z i o n ^               €       p                 ‰            !Ú÷%û    ‰            ^       p       h‰     @ıb     int
+    Ä´%û  `‰     ¸-@                  X‰     «%û  int
+           Ğ‰                                   Ñ+@     à'@     ^       P‰            ÿÿÿÿÿÿÿÿ^              é+@     6   For
+                            int 
+ j$û  e        Š@     
+   `£=““oe"û  ^           stdio.h
+              @      0            p       üb     \ D ripete le istruzioni contenute nel ciclo finch‚ la condizione ‚ vera, utilizzando una veariabile contatore che utilizza una variabie contatore che viene incrementata dopo il blocco delle istuzioni 
+              €       p                 „            !Ú÷%û    „            ^       p       h„     @ıb     int
+    Ä´%û  `„     ¸-@                  X„     «%û  int
+           Ğ„                                   Ñ+@     à'@     ^       P„            ÿÿÿÿÿÿÿÿ^              é+@     7   Do...While
+                     int
+ ³j$û  e        Š@     B   ¨`“oe"û  ^           stdio.h
+              @      0            p       üb     \ D ripete le istruzioni contenute nel ciclo finch‚ la condizione ‚ vera. Esegue almeno un ciclo
+ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ƒ            !Ú÷%û    ƒ            ^       p       hƒ     @ıb     int
+    Ä´%û  `ƒ     ¸-@                  Xƒ     «%û  int
+           Ğƒ                                   Ñ+@     à'@     ^       Pƒ            ÿÿÿÿÿÿÿÿ^              é+@     8   rand
+                           int
+ ³j$û  e        Š@      ØÌÁ  “oe"û  ^           time.h
+               @      0            p       üb     \ D ‚ la funzione per generare numeri casuali 
+ U s e r e  em a r z o \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     9   Srand
+                          int
+ ³j$û  e        Š@        `{h“oe"û  ^           time.h
+               @      0            p       üb     \ D Š la funzione di randomizzazione
+ u U T2 \ U s e r e  em a r z o \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 }            !Ú÷%û    }            ^       p       h}     @ıb     int
+    Ä´%û  `}     ¸-@                  X}     «%û  int
+           Ğ}                                   Ñ+@     à'@     ^       P}            ÿÿÿÿÿÿÿÿ^              é+@     10  Puts
+                           int
+ ³j$û  e        Š@      ¨gXó  “oe"û  ^           stdio.h
+              @      0            p       üb     \ D Scrive la stringa s sullo stdouy aggiungendo il carattere '\n'. Ritotna un numero non negativo in caso di successo e EOF  in caso di errore 
+   €\s <ıb Wd"w€\s   <	%wx[?u  \ıb dıb          À   ÀPşb     ´ıb ¢ÈÖt         Pşb €                @          À       Pşb €  şb ºÄÖtÈıb á¹ÖtPh şb int
+    Ä´%û  `¢     ¸-@                  X¢     «%û  int
+           Ğ¢                                   Ñ+@     à'@     ^       P¢            ÿÿÿÿÿÿÿÿ^              é+@     11  getchar
+                        char
+ j$û  e        Š@     ¦}    P“oe"û  ^           stdio.h
+              @      0            p       üb     \ D interrompe il flusso di esecuzione del programma, in attesa che l`utente inserisca un carattere con la tastiera
+  a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     char
+   Ä´%û  `     ¸-@                  X     «%û  char
+          Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     12  isdigit
+                        int
+ ³j$û  e        Š@         àg¿·“oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se la variabile c ‚ inserita, falso altrimenti
+  \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     13  isalpha
+                        int
+ ³j$û  e        Š@     €”   “oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se la variabie c ‚ una lettera, falso altrimenti
+  G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ¦            !Ú÷%û    ¦            ^       p       h¦     @ıb     int
+    Ä´%û  `¦     ¸-@                  X¦     «%û  int
+           Ğ¦                                   Ñ+@     à'@     ^       P¦            ÿÿÿÿÿÿÿÿ^              é+@     14  isalnum
+                        int
+ ³j$û  e        Š@     €œ-*   “oe"û  ^           ctype.h
+ ce vero se c ‚ un numero o una lettera, falso altrimen restituisce vero se la variabile c ‚ un numero o una variabile, falso altrimenti 
+  U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     15  isxdigit
+                       int
+ ³j$û  e        Š@     N   ¨w“oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un carattere esadecimale, falso altrimenti
+ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ‡            !Ú÷%û    ‡            ^       p       h‡     @ıb     int
+    Ä´%û  `‡     ¸-@                  X‡     «%û  int
+           Ğ‡                                   Ñ+@     à'@     ^       P‡            ÿÿÿÿÿÿÿÿ^              é+@     16  islower
+                        int
+ ³j$û  e        Š@     Ê   ¨²p“oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ una lettera minuscola, falso altrimenti
+  \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 Š            !Ú÷%û    Š            ^       p       hŠ     @ıb     int
+    Ä´%û  `Š     ¸-@                  XŠ     «%û  int
+           ĞŠ                                   Ñ+@     à'@     ^       PŠ            ÿÿÿÿÿÿÿÿ^              é+@     17  isupper
+                        int
+ ³j$û  e        Š@     ¡7   “oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c una lettera maiuscola, falso altrimenti
+  o \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     18  tolower
+                        int
+ ³j$û  e        Š@         x\¿“oe"û  ^           ctype.h
+              @      0            p       üb     \ D se c ‚ un carattere maiuscola, la funzione restituisce c come carattere minuscolo. altrimenti restituisce il carattere invariato
+ t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 s            !Ú÷%û    s            ^       p       hs     @ıb     int
+    Ä´%û  `s     ¸-@                  Xs     «%û  int
+           Ğs                                   Ñ+@     à'@     ^       Ps            ÿÿÿÿÿÿÿÿ^              é+@     19  toupper
+                        int
+ ³j$û  e        Š@     E•$   €¢“oe"û  ^           ctype.h
+              @      0            p       üb     \ D se c ‚ un carattere minuscolo, restituisce un carattere maiuscolo. altrimenti restituisce l'argomento senza variazioni
+ x e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     20  isspace
+                        int
+ ³j$û  e        Š@      Ø
+×  “oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un ritorno a capo, uno spazio, oppure \n, \f, \r, \t, \v. Falso altrimenti
+ U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     21  iscntrl
+                        int
+ ³j$û  e        Š@        €0ª8+“oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un carattere di controllo, falso altrimenti
+  o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 |            !Ú÷%û    |            ^       p       h|     @ıb     int
+    Ä´%û  `|     ¸-@                  X|     «%û  int
+           Ğ|                                   Ñ+@     à'@     ^       P|            ÿÿÿÿÿÿÿÿ^              é+@     22  ispunct
+                        int
+ ³j$û  e        Š@     €îõ¿   “oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un carattere stampato oltre allo spazio, un numero o una lettera. falso altrimenti
+ n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 u            !Ú÷%û    u            ^       p       hu     @ıb     int
+    Ä´%û  `u     ¸-@                  Xu     «%û  int
+           Ğu                                   Ñ+@     à'@     ^       Pu            ÿÿÿÿÿÿÿÿ^              é+@     23  isprint
+                        int
+ ³j$û  e        Š@        @Â4ó“oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un carattere stampato, incluso lo spazio. falso altrimenti
+ U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  int
+           Ğ                                   Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     24  isgraph
+                        int
+ ³j$û  e        Š@     €{   “oe"û  ^           ctype.h
+              @      0            p       üb     \ D restituisce vero se c ‚ un carattere stampato oltre lo spazio, falso altrimenti
+  D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 }            !Ú÷%û    }            ^       p       h}     @ıb     int
+    Ä´%û  `}     ¸-@                  X}     «%û   int
+          Ğ}                                   Ñ+@     à'@     ^       P}            ÿÿÿÿÿÿÿÿ^              é+@     25  strcmp
+                         int
+ ³j$û  e        Š@     †;k    “oe"û  ^           string.h
+             @      0            p       üb     \ D confronta la stringa s1 con s2. restituisce zero se sono uguali, un numero negativo se s1 < s2, un numero positivo se s1 > s2
+  e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 q            !Ú÷%û    q            ^       p       hq     @ıb     int
+    Ä´%û  `q     ¸-@                  Xq     «%û  const char *s1, const char *s2
+                        Ñ+@     à'@     ^       Pq            ÿÿÿÿÿÿÿÿ^              é+@     26  strncmp
+                        int
+ ³j$û  e        Š@         àøÃ\“oe"û  ^           string.h
+             @      0            p       üb     \ D confronta n caratteri della stringa s1 con s2, restituisce zero se i primi N caratteri sono uguali, un numero negativo se s1 < s2, un numero positivo se s1 > s2
+ i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     int
+    Ä´%û  `     ¸-@                  X     «%û  const char *s1, const char *s2, size_t n
+              Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     27  strchr 
+                        char
+ j$û  e        Š@      x?ÂÈ   “oe"û  ^           string.h
+             @      0            p       üb     \ D individua la prima occorrenza del carattere c in una stringa s. se c ‚ trovato, il puntatore a c in s ‚ restituito. altrimenti sar  restituito un puntatore nullo
+  b r e r i e ) \ c r e a z i o n ^               €       p                 ±            !Ú÷%û    ±            ^       p       h±     @ıb     char
+   Ä´%û  `±     ¸-@                  X±     «%û  const char *s, int c
+                                 Ñ+@     à'@     ^       P±            ÿÿÿÿÿÿÿÿ^              é+@     28  strcspn
+                        char
+ j$û  e        Š@       `eäÛ “oe"û  ^           string.h
+             @      0            p       üb     \ D localizza la prima occorrenza nella stringa s1 di un qualsiasi carattere nella stringa s2. se il carattere dalla stringa s2 ‚ trovato, un puntatore al carattere della stringa s1 ‚ restituito. altrimenti sar  restituito un puntatore nullo
+             !Ú÷%û                ^       p       h     @ıb     char
+   Ä´%û  `     ¸-@                  X     «%û  const char *s1, const char *s2
+                        Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     29  strrchr
+                        char
+ j$û  e        Š@     øj­    “oe"û  ^           string.h
+             @      0            p       üb     \ D localizza l'ultima occorrenza di c nella stringa s. se c ‚ trovata, un puntatore a c nella stringa s ‚ restituito, altrimenti sar  restituito un puntatore nullo
+ i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     char
+   Ä´%û  `     ¸-@                  X     «%û  const char *s, int c
+                                 Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     30  strpbrk
+                        char
+ j$û  e        Š@      ¨ñæt  “oe"û  ^           string.h
+             @      0            p       üb     \ D localizza la prima occorrenza nella stringa s1 di un qualsiasi carattere nella stringa s2. se un carattere dalla stringa s2 ‚ trovato, un puntatore al carattere nella stringa s1 ‚ restituito. altrimenti sar  restituito un puntatore nullo
+             !Ú÷%û                ^       p       h     @ıb     char
+   Ä´%û  `     ¸-@                  X     «%û  const char *s1, const char *s2
+                        Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     31  strrchr
+                        char
+ j$û  e        Š@     €È   “oe"û  ^           string.h
+             @      0            p       üb     \ D localizza l'ultima occorrenza di c nella stringa s. se c ‚ trovata, un puntatore a c nella stringa s ‚ restituito. altrimenti sar  restituito un puntatore nullo
+ i b r e r i e ) \ c r e a z i o n ^               €       p                 ­            !Ú÷%û    ­            ^       p       h­     @ıb     char
+   Ä´%û  `­     ¸-@                  X­     «%û  const char *s, int c
+                                 Ñ+@     à'@     ^       P­            ÿÿÿÿÿÿÿÿ^              é+@     32  strstr
+                         char
+ j$û  e        Š@        ˜à°ê“oe"û  ^           string.h
+             @      0            p       üb     \ D localizza la prima occorrenza nella stringa s1 della stringa s2. se la stringa ‚ trovata, un puntatore alla stringa s1 ‚ restituito, altrimenti sar  restituito un puntatore nullo 
+  r e a z i o n ^               €       p                 t            !Ú÷%û    t            ^       p       ht     @ıb     char
+   Ä´%û  `t     ¸-@                  Xt     «%û  const char *s1, const char *s2
+                        Ñ+@     à'@     ^       Pt            ÿÿÿÿÿÿÿÿ^              é+@     33  strtok
+                         char
+ j$û  e        Š@        `kÏ_“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero
+ \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     char *s1, const char *s2
+ @                  X     «%û  char *s1, const char *s2
+                              Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     34  strlen
+                         int
+ ³j$û  e        Š@      ¨Gµ‡  “oe"û  ^           string.h
+             @      0            p       üb     \ D restituisce la lunghezza della stringa s1
+  U s e r e  em a r z o \ G o o g l e   D U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ’            !Ú÷%û    ’            ^       p       h’     @ıb     int
+    Ä´%û  `’     ¸-@                  X’     «%û  char *s1
+       Ğ’                                   Ñ+@     à'@     ^       P’            ÿÿÿÿÿÿÿÿ^              é+@     35  atof
+                           double
+ û  e        Š@        >º«“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (double)
+  T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ™            !Ú÷%û    ™            ^       p       h™     @ıb     double
+ Ä´%û  `™     ¸-@                  X™     «%û  const char *nPtr
+ ™                                   Ñ+@     à'@     ^       P™            ÿÿÿÿÿÿÿÿ^              é+@     36  atoi
+                           int
+ ³j$û  e        Š@     BÑ   h“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (int)
+      ıb        €           ,ıb µ w  y     €\y <ıb Wd"w€\y   <	%wx[?u  \ıb dıb          À   ÀPşb     ´ıb ¢ÈÖt         Pşb €                @         À       Pşb €  şb ºÄÖtÈıb á¹ÖtPx şb int
+  char *nPtr
+ Ötõ´ÖtªJÌ–    Vİt              äıb şÿÿÿşb const char *nPtr
+                                    Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     37  atol
+                           long
+ j$û  e        Š@        `cÓó“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (long int)
+ T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 o            !Ú÷%û    o            ^       p       ho     @ıb     long int
+ %û  `o     ¸-@                  Xo     «%û  const char *nPtr
+ o                                   Ñ+@     à'@     ^       Po            ÿÿÿÿÿÿÿÿ^              é+@     38  strtod
+                         double
+ û  e        Š@     Wã   Àœ“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (double)
+  T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 Š            !Ú÷%û    Š            ^       p       hŠ     @ıb     double
+ Ä´%û  `Š     ¸-@                  XŠ     «%û  const char *nPtr, char **endPtr
+                       Ñ+@     à'@     ^       PŠ            ÿÿÿÿÿÿÿÿ^              é+@     39  strtol
+                         long
+ j$û  e        Š@     İ   €(§“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (long)
+  U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 ‡            !Ú÷%û    ‡            ^       p       h‡     @ıb     long
+   Ä´%û  `‡     ¸-@                  X‡     «%û  const char *nPtr, char **endPtr, int base
+             Ñ+@     à'@     ^       P‡            ÿÿÿÿÿÿÿÿ^              é+@     40  strtoul
+                        unsigned long
+       Š@     ‡   €D“oe"û  ^           string.h
+             @      0            p       üb     \ D prendono in input una stringa e restituiscono in output la stringa convertita in un numero (unsigned)
+ T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 z            !Ú÷%û    z            ^       p       hz     @ıb     unsigned long
+  `z     ¸-@                  Xz     «%û  const char *nPtr, char **endPtr, int base
+             Ñ+@     à'@     ^       Pz            ÿÿÿÿÿÿÿÿ^              é+@     41  strcpy
+                         char
+ j$û  e        Š@      €\›  “oe"û  ^           string.h
+             @      0            p       üb     \ D copia la stringa s2 nella stringa s1. Verr  restituito il valore della stringa s1
+  U Tv e \ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                             !Ú÷%û                ^       p       h     @ıb     char
+   Ä´%û  `     ¸-@                  X     «%û  char *s1, const char *s2
+                              Ñ+@     à'@     ^       P            ÿÿÿÿÿÿÿÿ^              é+@     42  strncpy
+                        char
+ j$û  e        Š@     ¸h   ä“oe"û  ^           string.h
+             @      0            p       üb     \ D copia i primi n carattedei della stringa s2 nella stringa s1. Verr  restituita la stringa s1
+ E s a U T  U n i b a U Tx e   b e t a   1   ( s o l o   o r d . l i b r e r i e ) \ c r e a z i o n ^               €       p                 v            !Ú÷%û    v            ^       p       hv     @ıb     char
+   Ä´%û  `v     ¸-@                  Xv     «%û  char *s1, const char *s2, size_t n
+                    Ñ+@     à'@     ^       Pv            ÿÿÿÿÿÿÿÿ^              é+@     43  strcat
+                         char 
+ $û  e        Š@     ác   €h<“oe"û  ^           string.h
+             @      0            p       üb     \ D concatena la stringa s2 al termine della stringa s1
+  ed ‚ la prima funzione a cui viene passato il controllo. A sua volta pu¢ invocare altre funzioni
+ Wd"w€\   <	%wx[?u  \ıb dıb          À   ÀPşb     ´ıb ¢ÈÖt         Pşb €                @         À       Pşb €  şb ºÄÖtÈıb á¹ÖtPt şb char
+   Ä´%û  `›     ¸-@                  X›     «%û  char *s1, const char *s2
+                              Ñ+@     à'@     ^       P›            ÿÿÿÿÿÿÿÿ^              é+@     44  strncat
+               ¢¦2MÎ=uchar
+   ·    b    @”Î=u      0X    €          string.h
+   ÎØ                  Lıbp p „  „üb B   øıb concatena i primi n caratteri della stringa s2 alla stringa s1
+    ıb        €           ,ıb µ w       €\ <ıb Wd"w€\   <	%wx[?u  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt         Pşb 	                @         @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtchar
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtchar *s1, const char *s2, size_t n
+          Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   45  fopen
+                ¢¦2MÎ=uFILE
+   ·    b    @”Î=u      0X    € ´         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb Apre un file. Se il file esiste, restituisce un puntatore al file, altrimenti restituisce NULL
+ µ w       €\ <ıb Wd"w€\ ´  <	%wx[?u´  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   ´      Pşb 	                @    ´     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    VİtFILE
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtconst char *filename, const char* mode
+      Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   46  fclose
+               ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € Ì         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb chiude un file. un file aperto ha un buffer associato, la chiusura di un file assicura che il contenuto del buffer sia trasferito nello stream. la chiusura diassocia il descrittore FILE dallo stream e libera risorse 
+     Ì     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtconst char* filename
+ b pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   47  fscanf
+               ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € Ì         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb Legge da file. Segue lo stesso formato della scanf(), bisogna semplicemente aggiungere il puntatore a file 
+ \ <ıb Wd"w€\ Ì  <	%wx[?uÌ  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   Ì      Pşb 	                @    Ì     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint 
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream, const char* format
+ ÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   48  fprintf
+               ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € ü         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb scrive su file. segue lo stesso formato della printf(), bisogna semplicemente aggiungere il puntatore al file
+  <ıb Wd"w€\ ü  <	%wx[?uü  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   ü      Pşb 	                @    ü     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream, const char* format
+ ÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   49  rewind
+               ¢¦2MÎ=uvoid
+   ·    b    @”Î=u      0X    € à         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb riavvolge lo stream, riportando il puntatore all'inizio del file
+   ıb        €           ,ıb µ w       €\ <ıb Wd"w€\ à  <	%wx[?uà  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   à      Pşb 	                @    à     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    VİtNULL
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream
+ b €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   50  feof
+                 ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € ˜         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb verifica di fine stream, implementa dei cicli che scorrono tra i contenuti di un file
+      ,ıb µ w       €\ <ıb Wd"w€\ ˜  <	%wx[?u˜  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   ˜      Pşb 	                @    ˜     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream
+ b €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   51  fread
+                ¢¦2MÎ=usize_t
+ ·    b    @”Î=u      0X    € ˜         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb Legge da file binari. Legge dallo stream un numero di elementi pari a nmemb, ognuno di dimensione size, attualmente memorizzati in ptr
+  ptr
+   €\ <ıb Wd"w€\ X  <	%wx[?uX  \ıb dıb          À   ÀPşb     ´ıb ¢ÈÖt   X      Pşb €                @    X     À       Pşb €  şb ºÄÖtÈıb á¹ÖtPt şb size_t
+ ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtconst void* ptr, size_t size, size_t nmemb, FILE* stream
+ b E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   52  fwrite
+               ¢¦2MÎ=usize_t
+ ·    b    @”Î=u      0X    € L         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb Scrive su file binari. Scrive nello stream un numero di elementi pari a nmemb, ognuno di dimensione size, attualmente memorizzati in ptr
+   \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   L      Pşb 	                @    L     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtsize_t
+ ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtconst void* ptr, size_t size, size_t nmemb, FILE* stream
+ b E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   53  fseek
+                ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    €          stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb sposta il puntatore di offset byte rispetto alla posizione whence iniziale. i possibili valori di whence sono le tre costanti SEEK_SET, SEEK_END, SEEK_CUR
+    @   @Pşb     ´ıb ¢ÈÖt         Pşb 	                @         @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream, log int offset, int whence
+    Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   54  getc
+                 ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    €          stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb legge il successivo carattere da uno stream (convertito in int) e avanza la posizione di un byte. la funzione restituisce il carattere letto oppure la costante EOF, indicatrice della fine dello stream
+ b     ´ıb ¢ÈÖt   „      Pşb €                @    „     À       Pşb €  şb ºÄÖtÈıb á¹ÖtPt şb int
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream
+ b €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   55  fgetc
+                ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    €          stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb legge il successivo carattere da uno stream (convertito in int) e avanza la posizione di un byte. la funzione restituisce il carattere letto oppure la costante EOF, indicatrice della fine dello stream
+ b     ´ıb ¢ÈÖt   „      Pşb €                @    „     À       Pşb €  şb ºÄÖtÈıb á¹ÖtPt şb int
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE* stream
+ b €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   56  getchar
+               ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    €          stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb Legge singoli caratteri 
+ "wPşb Lıb          €\ $ıb Ë=u      ıb        €           ,ıb µ w       €\ <ıb Wd"w€\   <	%wx[?u  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt         Pşb 	                @         @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtvoid
+   ,   $şb €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   57  fputc
+                ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € „         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb scrive un carattere nello stream specificato, restituisce il carattere scritto oppure EOF
+  ,ıb µ w       €\ <ıb Wd"w€\ „  <	%wx[?u„  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   „      Pşb 	                @    „     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtint c, FILE* stream
+ şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   58  putc
+                 ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    €          stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb scrive un carattere nello stream specificato, restituisce il carattere scritto oppure EOF
+  ,ıb µ w       €\ <ıb Wd"w€\   <	%wx[?u  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt         Pşb 	                @         @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtint c, FILE* stream
+ şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   59  fputs
+                ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € ¼         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb scrive la stringa s nello stream, restituisce > 0 oppure EOF in caso di errore 
+            ,ıb µ w       €\ <ıb Wd"w€\ ¼  <	%wx[?u¼  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   ¼      Pşb 	                @    ¼     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtconst char* s, FILE* stream
+ Ål6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   60  fflush
+               ¢¦2MÎ=uint
+    ·    b    @”Î=u      0X    € Ğ         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb forza la scrittura dei dati bufferizzati sullo stream. se stream vale NULL la scrittura avviene per tutti i files aperti in output
+ x[?uĞ  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   Ğ      Pşb 	                @    Ğ     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtint
+    ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    VİtFILE *stream
+ b €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   61  malloc
+               ¢¦2MÎ=uchar
+   ·    b    @”Î=u      0X    € ø         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb restituisce un puntatore a carattere che corrisponde al punto di inizio in memoria della porzione riservata di dimensione n, se la memoria richiesta non pu¢ essere allocata, restituisce un puntatore nullo
+          @    ø     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    Vİtchar
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtint n
+  ,   $şb €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   62  calloc
+               ¢¦2MÎ=uvoid
+                    ¢¦2MÎ=uğüb          b    Àstdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb restituisce un puntatore a carattere che corrisponde al punto di inizio in memoria della porzione riservata di dimensione n, se la memoria richiesta non pu¢ essere allocata, restituisce un puntatore nullo. dopo aver allocato la memoria inizializza lo spazio indirizzato a 0
+ t   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    VİtNULL
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtsize_t nitems, size_t size
+ ÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   63  realloc
+               ¢¦2MÎ=uvoid
+   ·    b    @”Î=u      0X    € ô         stdio.g
+    ÎØ                  Lıbp p „  „üb B   øıb ridimensiona il blocco di memoria puntato da ptr, assegnato precedentemente con malloc o calloc
+ µ w       €\ <ıb Wd"w€\ ô  <	%wx[?uô  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   ô      Pşb 	                @    ô     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    VİtNULL
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtvoid *ptr, size_t size
+ pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   64  free
+                 ¢¦2MÎ=uvoid
+   ·    b    @”Î=u      0X    € À         stdio.h
+    ÎØ                  Lıbp p „  „üb B   øıb dealloca la memoria precedentemente assegnata da una chiamata a calloc, malloc o realloc
+   ,ıb µ w       €\ <ıb Wd"w€\ À  <	%wx[?uÀ  \ıb dıb          @   @Pşb     ´ıb ¢ÈÖt   À      Pşb 	                @    À     @       Pşb 	  şb ºÄÖtÈıb á¹ÖtPt şb ÅÖt   ÜÄÖtşb î´Ötõ´Ötİ›ÒB    VİtNULL
+   ,       äıb şÿÿÿşb á¹Ött Tşb ÂåÖt   íåÖt‘›ÒB,    Vİtvoid *ptr
+  $şb €  ¸şb pİ×tÍÅl6şÿÿÿ         Vİt (t ,   tşb E€ØtlTİt€şb ÏšØt   Èşb ö¯Ùt    Vİté®Ùt›ÒBà@ à@  Ğ=        +   
