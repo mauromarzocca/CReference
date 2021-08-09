@@ -44,7 +44,7 @@ int main()
 		printf("Y88b  d88P      888  T88b Y8b.     888   Y8b.     888    Y8b.     888  888 Y88b.   Y8b.     \n");		/**/
 		printf("  Y8888P..      888   T88b  Y8888  888     Y8888  888      Y8888  888  888   Y8888P  Y8888  \n\n\n");	/**/
 
-		printf("C Reference\n\nVersione 2.1\n\n");
+		printf("C Reference\n\nVersione 2.2\n\n");
 		printf("Programma di Marzocca Mauro\n\nInserire il numero per selezionare una voce del menu' e premere invio\n\n");
 		printf("1) Librerie\n2) Funzioni\n");							/*Menu principale di selezione*/
 		printf("3) Changelog e Feature\n4) Ricerca\n5) Uscita\n\n");
@@ -381,7 +381,7 @@ int main()
 
 
 		case 5:
-			printf("Grazie di aver usato il nostro programma!\n		- Marzocca Mauro & Zizza Vincenzo - \n\n"  );
+			printf("Grazie di aver usato questo programma!\n		- Marzocca Mauro - \n\n"  );
 			getchar();
 			n=1;			/*chiusura programma*/
 			break;
