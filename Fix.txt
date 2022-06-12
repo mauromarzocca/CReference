@@ -1,0 +1,2 @@
+- Cifratura di una frase invece che di una parola
+- Implementare Sistema di Decifratura
